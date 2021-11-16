@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f8f9fa;
+}
+
+.btn-primary{
+    background-color: #372865;
+    border-color: #372865;
+    
+}
+.btn-primary:hover{
+    background-color: #372865;
+    border-color: #372865;
+
+}
+.btn-primary:active{
+    background-color: #372865;
+    border-color: #372865; 
+}
+.btn-primary:focus{
+    background-color: #372865;
+    border-color: #372865; 
+    box-shadow: 0 0 0 0.25rem #372865;
+}
+.top-label-text{
+    margin-bottom: 20px;
+}
+.top-label-text p{
+    padding: 10px 15px;
+    background-color: #372865;
+    color: #f1f1f1;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    max-width: 390px;
+}
+.top-label-text p a{
+    color: #f1f1f1;
+    font-weight: 700;
+} 
+.top-spacing{
+    margin-top: 72px;
+}
+.side-bar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading-text h2{
+    font-size: 42px;
+    line-height: 55px;
+    color: #372865;
+    font-weight: 700;
+}
+.heading-text p{
+    color: #372865;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.sider-bar-img img{
+    width: 100%;
+    height: auto;
+    max-width: 290px;
+    
+}
+.btn-submit{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.company-logo ul{
+   
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.company-logo ul li{
+    list-style-type: none;
+    display:inline-block;
+    
+    
+
+}
+
+.company-logo ul li a{
+    margin-right: 10px;
+}
+.company-logo ul li a img{
+    width: 100%;
+    height: auto;
+    max-width: 45px;
+}
+.company-text span{
+    color: #372865;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.search-bar .form-control{
+    max-width: 400px;
+    height: auto;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("../../Assets/Hamburger Menu.svg");
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+}
+.company-text{
+    margin-top: 40px;
+}
+@media(max-width:767px){
+    .search-bar form{
+        display: block !important;
+    }
+    .search-bar  a{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .search-bar .form-control{
+        margin-bottom: 20px;
+    }
+    .company-logo ul li{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:991px){
+    .sider-bar-img img{
+        display: none;
+    }
+    .heading-text h2{
+        text-align: center;
+    }
+   .side-bar-content {
+       text-align: -webkit-center;
+   }
+   .search-bar form{
+       justify-content: center;
+       align-items: center;
+
+   }
+   .top-spacing{
+      margin-top: 52px;
+   }
+   .search-bar .form-control {
+       padding: 10px 20px;
+   }
+}
